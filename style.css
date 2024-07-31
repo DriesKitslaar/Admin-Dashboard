@@ -109,8 +109,8 @@
     color: white;
     font-size: 1.5em;
   }
-  
-  @media (min-width: 40em){
+
+  @media (min-width:40em){
     .header {
         grid-column: 2 / span 1;
         background-color: var(--primary-button-color);
@@ -292,6 +292,7 @@
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px
   }
 
   .announcement-card{
@@ -302,6 +303,7 @@
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     align-items: start;
+    max-width: 300px;
   }
 
   .announcement-content{
